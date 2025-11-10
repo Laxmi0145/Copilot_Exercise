@@ -1,0 +1,109 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #22223b;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: 500;
+}
+.navbar-brand:hover, .navbar-nav .nav-link.active {
+  color: #9a8c98 !important;
+}
+
+/* Headings */
+h1, .display-4, .display-5 {
+  color: #4a4e69;
+  font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+  color: #22223b;
+}
+
+/* Tables */
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table thead.table-dark th {
+  background: #4a4e69;
+  color: #f2e9e4;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e9ecef;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #9a8c98 0%, #4a4e69 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4a4e69 0%, #9a8c98 100%);
+  color: #f2e9e4;
+}
+
+/* Links */
+a, .App-link {
+  color: #4a4e69;
+  text-decoration: underline;
+}
+a:hover, .App-link:hover {
+  color: #9a8c98;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 16px;
+}
+
+/* Custom for OctoFit */
+.octofit-navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
